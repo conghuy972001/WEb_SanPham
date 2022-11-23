@@ -1,0 +1,198 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/* --------------HEADER----------- */
+header{
+  font-family: Arial;
+}
+header nav{
+  background: #333333;
+  height: 80px;
+  width: 100%;
+}
+
+header nav img{
+  height: 80px;
+  margin: 0 80px;
+}
+
+header nav ul{
+  float: right;
+  margin-right: 20px;
+}
+header nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+}
+header nav ul li:hover{
+  background: #808080;
+}
+header nav ul li a{
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+header nav div{
+  float: right;
+  margin-top: 20px;
+  margin-right: 80px;
+  padding: 0;
+}
+
+header nav div input{
+  height: 40px;
+  width: 220px;
+}
+header nav div button{
+  height: 40px;
+  width: 60px;
+}
+
+
+/* --------------ADV----------- */
+.background{
+  background: url(img/giangsinh.jpg) no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+.background .adv{
+  height: 90px;
+  width: 85%;
+}
+.background .adv a img{
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 10px ;
+}
+
+/* --------------MAIN----------- */
+.main{
+  height: 555px;
+  width: 85%;
+}
+.main .sidebar{
+  border: 3px solid #663300;
+  height: 555px;
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  background-color: #c2d8e5d4;
+}
+.main .sidebar .list_sidebar{
+  display: inline-block;
+  line-height: 40px;
+  margin: 0 10px;
+  list-style: none;
+}
+.main .sidebar .list_sidebar li:hover{
+  background: white;
+  width: 235px;
+}
+.main .sidebar .list_sidebar li a{
+  color: black;
+  font-size: 15px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+}
+.main .maincontent{
+  border: 3px solid #663300;
+  height: auto;
+  width: 78%;
+  margin-top: 10px;
+  margin-right: 10px ;
+  float: right;
+  background: #c2d8e5d4;
+}
+.product_list li {
+    margin: 6px;
+    width: 186px;
+    height: 250px;
+    border: 2px solid black;
+    float: left;
+    background: #ffffff;
+    list-style: none;
+}
+.product_list img{
+  width: 90%;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+}
+.product_list li p{
+  text-align: center;
+}
+.product_list li p.title_product {
+    font-weight: bold;
+    color: black;
+}
+.product_list li p.price_product {
+    color: red;
+}
+/*----------------NEWS-----------*/
+.news{
+  width: 84%;
+  height: 400px;
+}
+.background .news h3{
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+.list_new li {
+    margin: 9px;
+    width: 400px;
+    height: 350px;
+    border: 2px solid black;
+    float: left;
+    background: #c2d8e5d4;
+    list-style: none;
+}
+.list_new img{
+  width: 60%;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+}
+.list_new li p{
+  text-align: center;
+}
+.list_new li p.title_product {
+    font-weight: bold;
+    color: black;
+}
+.list_new li p.price_product {
+    color: red;
+}
+
+
+/*-------------lỗi fix-----------------*/
+.thua {
+  width: 85%;
+  height: 70px;
+}
+.thua1{
+  width: 85%;
+  height: 20px;
+}
+
+
+/*----------------FOOTER-----------*/
+.footer{
+  background: #333333;
+  height: 120px;
+  width: 100%;
+  text-align: center;
+}
+
+.clear{
+  clear: both;
+}
